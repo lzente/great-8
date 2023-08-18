@@ -227,7 +227,7 @@
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}
-            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{rosterID}</i></div>
+            <div class="teamSub">{coOwners ? 'Co-' : ''}Manager of <i>{getrosterIDFromTeamManagers(leagueTeamManagers, rosterID, year)}</i></div>
         </h2>
         
         <div class="basicInfo">
