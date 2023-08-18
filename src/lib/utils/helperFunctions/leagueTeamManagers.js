@@ -62,7 +62,7 @@ const processUsers = (rawUsers) => {
 		finalUsers[user.user_id] = user;
         const manager = managers.find(m => m.managerID === user.user_id);
         if(manager) {
-            finalUsers[user.user_id].display_name = manager.name;
+            finalUsers[user.user_id].display_name = team.name;
         }
 	}
 	return finalUsers;
