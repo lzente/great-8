@@ -175,10 +175,10 @@
         
         <div class="subBlock">
             <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
+                <tr><td>QB</td><td class="right">5</td></tr>
+                <tr><td>RB</td><td class="right">No Limit</td></tr>
+                <tr><td>WR</td><td class="right">No Limit</td></tr>
+                <tr><td>TE</td><td class="right">No Limit</td></tr>
                 <tr><td>D/ST</td><td class="right">3</td></tr>
                 <tr><td>K</td><td class="right">3</td></tr>
             </table>
@@ -293,9 +293,9 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: {dues * 7}$</li>
+        <li>2nd place: {dues * 1}$</li>
+     
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
