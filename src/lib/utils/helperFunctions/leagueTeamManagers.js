@@ -42,7 +42,7 @@ export const getLeagueTeamManagers = async () => {
         }
         for(const roster of rosters) {
             teamManagersMap[year][roster.roster_id] = {
-                team: getTeamData(processedUsers, roster.display_name),
+                team: getTeamData(processedUsers, roster.owner_id),
                 managers: getManagers(roster, processedUsers),
             };
         }
