@@ -98,7 +98,7 @@ export const managers = [
       "name": "Austen Zente",
       "tookOver":2023 , // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Raleigh", // (optional)
-      "bio": "I was good at baseball, I'm bad at golf, and now I'm here to become the greatest of the 8",
+      "bio": "I was good at baseball, I'm bad at golf, and now I'm here to become the greatest of the 8.2018 Big South POTY",
       "photo": "/managers/austen.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart":2023 , // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -134,7 +134,7 @@ export const managers = [
       "favoritePlayer":4943 , // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "TBD", // (optional)
+      "philosophy": "I go hard in the paint", // (optional)
       "tradingScale": 5.7, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
@@ -190,7 +190,7 @@ export const managers = [
       "name": "Josh Poznanski",
       "tookOver":2023 , // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Charlotte", // (optional)
-      "bio": "jush",
+      "bio": "Ex-swimmer. Tofu aficionado.",
       "photo": "/managers/josh.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart":2023 , // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
