@@ -29,7 +29,7 @@ export const managers = [
          
       "tookOver":2023 , // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Gisbourne", // (optional)
-      "bio": "Smokin meats and clappin cheeks",
+      "bio": "Commish of the greatest fantasy football league of all time. ",
       "photo": "/managers/luke.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart":2011 , // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -42,7 +42,7 @@ export const managers = [
       "favoritePlayer": 1181, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "I'm the captain now", // (optional)
+      "philosophy": "Smokin meats and clappin cheeks", // (optional)
       "tradingScale": 11, // 1 - 10 (optional)
       "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
