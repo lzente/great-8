@@ -52,7 +52,7 @@ export const managers = [
       "name": "Matt Loftus",
       "tookOver":2023 , // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Greensboro", // (optional)
-      "bio": "The best hernia mesh salesman east of the Mississippi",
+      "bio": "The best hernia mesh salesman east of the Mississippi. Father to Indi girl.",
       "photo": "/managers/loftus.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart":2023 , // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
