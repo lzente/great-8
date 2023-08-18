@@ -67,4 +67,3 @@ const processUsers = (rawUsers) => {
 	}
 	return finalUsers;
 }
-
